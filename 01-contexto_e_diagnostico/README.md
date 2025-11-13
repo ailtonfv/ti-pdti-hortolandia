@@ -1,5 +1,5 @@
 # 📘 01. Contexto e Diagnóstico
-## Prefeitura Municipal de Hortolândia — PDTI 2025–2028
+## Prefeitura Municipal de Hortolândia — PDTI 2026–2029
 
 Este capítulo consolida a análise situacional da Tecnologia da Informação no município de Hortolândia, incluindo capacidades instaladas, infraestrutura, atividades operacionais, serviços prestados, processos internos, inventário tecnológico, fragilidades e demandas reprimidas.
 
@@ -16,7 +16,7 @@ A Tecnologia da Informação do município exerce papel estratégico para:
 - Viabilizar soluções de governo digital;
 - Sustentar sistemas corporativos e setoriais;
 - Manter infraestrutura crítica (rede, servidores, storages, backup);
-- Atender a mais de 20 secretarias e unidades descentralizadas.
+- Atender a quase 20 secretarias e unidades descentralizadas.
 
 O crescimento da demanda por tecnologia contrasta com:
 
