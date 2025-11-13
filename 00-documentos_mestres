@@ -1,1 +1,212 @@
+# 📘 Plano Diretor de Tecnologia da Informação (PDTI)
+## Prefeitura Municipal de Hortolândia
+### Ciclo 2026–2029 — Versão 0.9 (Estrutura Consolidada)
+
+---
+
+# 1. Introdução
+
+O Plano Diretor de Tecnologia da Informação (PDTI) da Prefeitura Municipal de Hortolândia consolida o conjunto de diretrizes, ações, metas e investimentos necessários para orientar a gestão de TI no ciclo 2026–2029. Trata-se de um instrumento institucional que integra governança, planejamento estratégico, capacidade operacional e evolução tecnológica, servindo como referência para decisão, priorização e alocação de recursos no âmbito municipal.
+
+Este PDTI incorpora insumos de diagnósticos anteriores, incluindo materiais técnicos produzidos em ciclos passados, além de dados atualizados sobre o parque tecnológico municipal, inventários de ativos e informações levantadas junto às áreas técnicas de TI. A versão atual representa uma **evolução natural** desses esforços, alinhando as práticas de TI às demandas contemporâneas da Prefeitura.
+
+---
+
+# 2. Escopo e Finalidade
+
+Este plano abrange:
+
+- Governança de TI, dados, sistemas e software.
+- Infraestrutura, redes, servidores, conectividade e segurança.
+- Sistemas corporativos e soluções tecnológicas.
+- Governança de dados, interoperabilidade e LGPD.
+- Gestão de serviços, suporte técnico e atendimento.
+- Projetos estratégicos e iniciativas de modernização pública.
+- Mapeamento e análise do parque tecnológico municipal.
+- Diretrizes e metas para o ciclo 2026–2029.
+- Riscos, controles internos e continuidade de serviços.
+
+A finalidade do PDTI é **Unificar, padronizar e orientar** a evolução tecnológica da Prefeitura, garantindo eficiência, transparência, segurança e valor público.
+
+---
+
+# 3. Fundamentação Normativa
+
+O PDTI está fundamentado nas seguintes referências:
+
+- **PPA Municipal 2026–2029** – alinhamento obrigatório.
+- **Modelo de Governança do Governo Federal (GOV-BR)**.
+- **COBIT 2019** – boas práticas de governança de TI.
+- **ITIL 4** – gestão de serviços.
+- **Lei Geral de Proteção de Dados (LGPD – Lei nº 13.709/2018)**.
+- **Lei de Acesso à Informação (Lei 12.527/2011)**.
+- **Normas municipais e diretrizes internas da Prefeitura**.
+- **PMI (Project Management Institute)** – metodologia de gestão do portfólio de projetos.
+
+Esta base normativa garante aderência institucional e promove a segurança jurídica do plano.
+
+---
+
+# 4. Metodologia de Elaboração
+
+A construção deste PDTI seguiu quatro princípios:
+
+### **1. Integração institucional**
+Consolidação de informações técnicas produzidas pela DITI, pela área de software e por documentos anteriores (incluindo materiais do ciclo 2025–2028), ajustando e modernizando esses insumos para o novo ciclo.
+
+### **2. Diagnóstico situacional completo**
+Mapeamento atualizado do parque tecnológico, sistemas, infraestrutura e capacidades operacionais.
+
+### **3. Diretrizes orientadas a resultado**
+Alinhamento com o PPA, metas de governo, instrumentos de planejamento e necessidades das secretarias.
+
+### **4. Governança alinhada a riscos**
+Gestão por criticidade, priorização por impacto e aderência a boas práticas (GOV-BR, COBIT, ITIL, PMI).
+
+---
+
+# 5. Diagnóstico Situacional
+
+O diagnóstico é composto por:
+
+- Inventário do parque tecnológico municipal.  
+- Mapeamento de sistemas corporativos e dependências.  
+- Avaliação de infraestrutura de rede e conectividade.  
+- Levantamento de contratos vigentes, licenças e serviços.  
+- Análise da maturidade em governança de TI.  
+- Avaliação das capacidades da área de software.  
+- Identificação de gargalos, riscos e oportunidades.  
+- Incorporação das informações relevantes do PDTI 2025–2028.
+
+### **5.1 Inventário Consolidado**
+*(Este item será complementado com as informações extraídas do PDF anterior)*  
+
+Inclui:
+
+- Quantitativo de computadores, notebooks e dispositivos.  
+- Infraestrutura de servidores e armazenamento.  
+- Sistemas utilizados pelas secretarias.  
+- Internet, redes, switches, access points.  
+- Programas instalados e soluções adquiridas.  
+- Dependências críticas.
+
+---
+
+# 6. Diretrizes Estratégicas (2026–2029)
+
+As diretrizes orientam as decisões do ciclo:
+
+### **D1. Garantir governança e segurança da informação**
+Incluindo LGPD, gestão de acessos, continuidade e resiliência.
+
+### **D2. Modernizar infraestrutura e reduzir riscos operacionais**
+Equipamentos, redes, servidores, conectividade.
+
+### **D3. Fortalecer a área de software e desenvolvimento**
+Integração com a DITI, documentação e padrões.
+
+### **D4. Estruturar governança de dados**
+Qualidade, catálogo, interoperabilidade, transparência ativa.
+
+### **D5. Aumentar a eficiência e padronização dos serviços de TI**
+SLAs, atendimento, suporte e gestão de chamados.
+
+### **D6. Conduzir projetos estratégicos alinhados ao PPA**
+Entrega de valor público mensurável às secretarias.
+
+---
+
+# 7. Objetivos Gerais e Específicos
+
+### **Objetivo Geral**
+Elevar a maturidade digital da Prefeitura, fortalecendo a governança, a segurança, a eficiência operacional e a capacidade de inovação no período 2026–2029.
+
+### **Objetivos Específicos**
+- Implementar governança moderna (COBIT + GOV-BR).  
+- Atualizar o parque tecnológico.  
+- Padronizar sistemas e ambientes.  
+- Integrar e organizar a área de software.  
+- Estabelecer indicadores de desempenho.  
+- Criar catálogo de serviços e SLAs.  
+- Aumentar a previsibilidade orçamentária.  
+- Aprimorar governança de dados e LGPD.
+
+---
+
+# 8. Plano de Ação (Portfólio de Projetos)
+
+O plano de ação consolida os projetos estratégicos, incluindo:
+
+- Infraestrutura e redes.  
+- Governança e segurança.  
+- Modernização do parque.  
+- Sistemas e software.  
+- Dados, interoperabilidade e LGPD.  
+- Atendimento e suporte ao usuário.
+
+Cada projeto será organizado segundo:
+
+- Critérios de priorização (PMI).  
+- Marcos e entregáveis.  
+- Estimativas de prazo.  
+- Riscos associados.  
+- Recursos necessários.  
+- Resultados esperados.
+
+*(O detalhamento será produzido no Dia 3 conforme nosso cronograma.)*
+
+---
+
+# 9. Gestão de Riscos e Controles
+
+Inclui:
+
+- Matriz de riscos 5×5.  
+- Controles preventivos, detectivos e corretivos.  
+- Planos de continuidade e contingência.  
+- Segurança da informação (acessos, backups, redundância).  
+- Conformidade com LGPD.  
+- Monitoramento e auditoria.
+
+---
+
+# 10. Governança de Tecnologia da Informação
+
+A governança será estruturada conforme:
+
+- **GOV-BR (modelo federal)**  
+- **COBIT 2019 (domínios EDM, APO, DSS)**  
+- **ITIL 4 (Service Management)**  
+- **PMI (portfolio + project governance)**
+
+Incluindo:
+
+- Comitê de Governança de TI.  
+- Processos padronizados.  
+- Relatórios periódicos.  
+- Indicadores de performance.  
+- Ciclo de revisão anual do PDTI.
+
+---
+
+# 11. Considerações Finais
+
+O PDTI 2026–2029 consolida a visão estratégica da Prefeitura para a área de TI, integrando infraestrutura, software, dados, governança, segurança e atendimento. Este documento evolui informações de diagnósticos anteriores, moderniza a abordagem e se alinha às melhores práticas do setor público.
+
+Sua implementação proporcionará:
+
+- Redução de riscos operacionais.  
+- Aumento de eficiência e previsibilidade.  
+- Melhoria da segurança e da LGPD.  
+- Suporte fortalecido às secretarias.  
+- Entrega de valor público mensurável.
+
+---
+
+# 12. Anexos
+
+- Diagnósticos anteriores consolidados.  
+- Inventário técnico do parque tecnológico.  
+- Metodologias e marcos normativos.  
+- Mapas e quadros comparativos.
 
