@@ -105,6 +105,91 @@ Para definir alocação de esforços no plano de ação.
 
 # 📂 6. Estrutura do Repositório
 
+## 📁 6. Estrutura do Repositório
+
+O repositório do PDTI adota uma estrutura modular, organizada para garantir rastreabilidade, governança documental, versionamento e clareza na manutenção do documento ao longo do ciclo 2026–2029.  
+
+Cada diretório representa um bloco lógico do Plano Diretor de Tecnologia da Informação.
+
+### 📂 Diretórios
+
+#### **00-documentos_mestres/**
+Contém o **documento principal consolidado** do PDTI, incluindo:
+- Introdução  
+- Finalidade  
+- Escopo  
+- Metodologia  
+- Sínteses dos demais capítulos  
+- Versão final em Markdown (para trabalho)  
+- Versão final em PDF/Word (para entrega oficial)  
+
+É o documento “pai” que será usado para gerar a entrega final ao gabinete.
+
+---
+
+#### **01-contexto_e_diagnóstico/**
+Reúne toda a base analítica e situacional:
+- Histórico da TI  
+- Inventário de ativos  
+- Situação de infraestrutura e sistemas  
+- Análise de maturidade  
+- Riscos existentes  
+- Entrevistas e levantamentos internos  
+- Matriz SWOT da TI municipal  
+
+---
+
+#### **02-diretrizes_e_objetivos/**
+Contém as definições estratégicas:
+- Diretrizes gerais de TI  
+- Objetivos do PDTI  
+- Metas estratégicas para 2026–2029  
+- Alinhamento com PPA, LDO e PMI  
+- Indicadores e critérios de priorização  
+
+---
+
+#### **03-plano_de_acao/**
+Inclui o planejamento tático:
+- Portfólio de projetos  
+- Cronograma macro  
+- Recursos necessários  
+- Dependências  
+- Esforços estimados  
+- Matriz de priorização  
+- Resultados esperados  
+
+---
+
+#### **04-riscos_e_controles/**
+Documenta os elementos de governança e conformidade:
+- Matriz de riscos do PDTI  
+- Planos de mitigação  
+- Controles internos  
+- Diretrizes de continuidade  
+- Integração com LGPD e segurança da informação  
+
+---
+
+#### **05-anexos_e_MI_relacionadas/**
+Coleta todos os documentos complementares:
+- Metodologias (ITIL, COBIT, DAMA, etc.)  
+- Minutas internas (MI-2025, MI-2026…)  
+- Normativos  
+- Levantamentos, relatórios, planilhas recebidas  
+- Atas, registros e artefatos de apoio  
+
+---
+
+## 📌 Observação Geral
+
+A estrutura foi projetada para:
+
+- Facilitar auditoria e rastreabilidade  
+- Permitir versões sucessivas sem perda de histórico  
+- Centralizar todo o conhecimento técnico de TI  
+- Usar o GitHub como repositório oficial de governança  
+
 O repositório segue um modelo modular:
 
 
