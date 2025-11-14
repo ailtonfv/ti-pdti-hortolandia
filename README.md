@@ -72,5 +72,4 @@ Conforme cada diretório amadurece, uma versão consolidada será gerada em **do
 ## 🏛 Secretaria Municipal de Planejamento Urbano e Gestão Estratégica — SMPUGE  
 ### Departamento de Infraestrutura em TI — DITI  
 ### Departamento de Sistemas em TI — DSTI  
-### Diretoria de Governança de Dados
-✔️ Pronto.
+### Diretoria de Informação e Análise Estatíticas - DIAE
