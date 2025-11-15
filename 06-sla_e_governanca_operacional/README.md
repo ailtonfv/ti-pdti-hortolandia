@@ -99,10 +99,10 @@ Este fluxo padroniza todo o ciclo de vida de um incidente ou requisição, garan
 
 ```mermaid
 flowchart LR
-    A[Usuário abre chamado] --> B[Classificação]
-    B --> C[Nível 1]
-    C -->|Sem solução| D[Nível 2]
-    D -->|Necessita especialista| E[Nível 3]
+    A[Usuario abre chamado] --> B[Classificacao]
+    B --> C[Nivel 1]
+    C -->|Sem solucao| D[Nivel 2]
+    D -->|Necessita especialista| E[Nivel 3]
     C -->|Resolvido| F[Encerrar chamado]
     D -->|Resolvido| F[Encerrar chamado]
     E -->|Resolvido| F[Encerrar chamado]
