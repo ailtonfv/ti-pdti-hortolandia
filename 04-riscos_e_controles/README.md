@@ -60,7 +60,7 @@ A matriz segue o padrão 3×3 (Alta, Média, Baixa).
 
 - autenticação multifator (MFA);  
 - firewalls e segmentação de rede;  
-- criptografia;  
+- críptografia;  
 - gestão de patches;  
 - monitoramento contínuo (SIEM/NOC);  
 - antivírus corporativo;  
