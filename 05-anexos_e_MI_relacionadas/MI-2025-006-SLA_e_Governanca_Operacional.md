@@ -1,178 +1,222 @@
-# MI-2025-006 — SLA e Governança Operacional  
-**Diretoria de Tecnologia da Informação – Prefeitura Municipal de Hortolândia**  
+# MI-2025-006 — SLA e Governança Operacional (Infraestrutura)
+**Diretoria de Tecnologia da Informação — DITI**  
+**Prefeitura Municipal de Hortolândia**  
 **Ano-base: 2025**
 
 ---
 
 ## 1. Finalidade
-Estabelecer o **Acordo de Nível de Serviço (SLA)**, o fluxo operacional, os padrões de responsabilidade, os indicadores e os mecanismos de controle interno aplicáveis ao atendimento técnico e à governança operacional da DITI.
+Estabelecer padrões de atendimento, tempos de resposta, responsabilidades, fluxos de trabalho, indicadores e mecanismos de governança aplicáveis **exclusivamente às atividades de infraestrutura, suporte técnico, redes, data center, equipamentos, conectividade e continuidade operacional**.
+
+Esta MI não se aplica ao desenvolvimento, manutenção evolutiva ou parametrização de sistemas. Tais atividades serão tratadas na MI-2025-007.
 
 ---
 
 ## 2. Escopo
-Aplica-se a:
-- Central de Atendimento (Nível 1)  
-- Equipe técnica de infraestrutura (Nível 2)  
-- Equipe de sistemas e banco de dados (Nível 3)  
-- Fornecedores externos  
-- Secretarias usuárias  
-- Governança e auditoria  
-- Todos os sistemas, redes, serviços e ativos tecnológicos municipais.
+Este documento rege:
+
+- Suporte técnico Nível 1 (Service Desk)  
+- Infraestrutura de TI (Nível 2)  
+- Segurança, redes, conectividade  
+- Data center, servidores, máquinas virtuais  
+- Inventário, backup e continuidade  
+- Fornecedores associados à infraestrutura  
+- Atividades emergenciais e preventivas  
+
+**Não contempla:**  
+- Desenvolvimento de sistemas  
+- Manutenção evolutiva  
+- Criação de integrações  
+- Parametrizações sistêmicas  
+- Projetos de software  
+
+Esses processos pertencem à **DSTI** e terão SLA próprio.
 
 ---
 
 ## 3. Definições
 **Chamado:** Registro formal de solicitação ou incidente.  
-**Prioridade (A/B/C):** Grau de criticidade e impacto no serviço.  
-**Níveis 1, 2 e 3:** Estrutura de atendimento.  
+**Prioridade:** Classificação A (crítica), B (alta), C (moderada).  
+**Níveis de atendimento:**  
+- **Nível 1:** Service Desk  
+- **Nível 2:** Infraestrutura / Redes  
+- **Nível 3:** Especialistas de Infra, Segurança ou Banco de Dados  
+
 **TMR:** Tempo médio de resposta.  
 **TMS:** Tempo médio de solução.  
 **MTTR:** Tempo médio de reparo.  
-**RACI:** Modelo de responsabilidade.
+**Janela de manutenção:** Período autorizado para intervenção preventiva.  
+**PCO:** Plano de Correção Obrigatória (uso interno, não punitivo).
 
 ---
 
-## 4. Fluxo de Atendimento e Governança
+## 4. Fluxo de Atendimento
 
 ### 4.1 Etapas do Processo
-1. Abertura do chamado  
-2. Classificação e triagem  
+1. Abertura do chamado (usuário)  
+2. Triagem e classificação (Nível 1)  
 3. Atendimento inicial (Nível 1)  
-4. Escalonamento técnico (Nível 2/3)  
-5. Resolução  
-6. Validação com usuário  
-7. Encerramento  
-8. Registro no Catálogo de Problemas (quando aplicável)
+4. Escalonamento para Nível 2  
+5. Ação técnica (rede, servidor, equipamento, acesso, backup etc.)  
+6. Escalonamento para Nível 3, se necessário  
+7. Teste e validação  
+8. Encerramento e evidências  
+9. Atualização da Base de Conhecimento  
 
 ---
 
-## 4.2 Fluxo (versão esquemática em Mermaid)
+### 4.2 Fluxo (diagrama Mermaid)
 
 ```mermaid
 flowchart LR
-    A["Usuário abre chamado"] --> B["Classificação"]
+    A["Usuário abre chamado"] --> B["Classificação (Nível 1)"]
     B --> C["Nível 1"]
-    C -->|Sem solução| D["Nível 2"]
-    D -->|Necessita especialista| E["Nível 3"]
+    C -->|Sem solução| D["Nível 2 (Infra)"]
+    D -->|Necessita especialista| E["Nível 3 (Especialistas)"]
     C -->|Resolvido| F["Encerrar chamado"]
     D -->|Resolvido| F
     E -->|Resolvido| F
 ```
 
-**Observação:** Este diagrama poderá ser exportado posteriormente em `.svg` e armazenado na pasta `99-imagens`.
+---
+
+### 4.3 Responsabilidades (RACI)
+
+| Processo / Atividade           | Nível 1 (SD) | Nível 2 (Infra) | Nível 3 (Especialistas) | Secretaria | Fornecedor |
+|-------------------------------|--------------|------------------|---------------------------|------------|------------|
+| Registro do chamado           | R            | C                | C                         | A          | –          |
+| Triagem e classificação       | R            | C                | –                         | –          | –          |
+| Suporte remoto                | R            | C                | –                         | –          | –          |
+| Suporte presencial            | –            | R                | –                         | –          | –          |
+| Incidentes críticos           | C            | R                | A                         | C          | R/C        |
+| Backup / Restore              | –            | R                | C                         | –          | –          |
+| Monitoramento do Data Center  | –            | R                | C                         | –          | –          |
+| Segurança e acessos           | C            | R                | A                         | –          | C          |
+| Problemas recorrentes         | C            | R                | R                         | –          | C          |
+| Validação do usuário          | –            | –                | –                         | R          | –          |
+| Encerramento                  | R            | C                | C                         | –          | –          |
+
+Legenda: **R = responsável**, **A = aprovador**, **C = consultado**  
 
 ---
 
-## 4.3 Padrões de Responsabilidade
+## 5. Tempos de Atendimento (SLA)
 
-| Etapa do Processo            | Responsável Principal | Apoio |
-|-----------------------------|------------------------|-------|
-| Abertura do chamado         | Usuário / Secretaria   | –     |
-| Classificação e triagem     | Nível 1 (Service Desk) | –     |
-| Escalonamento técnico       | DITI/DSTI (Nível 2/3)  | Fornecedores |
-| Resolução                   | Equipe técnica         | Sistemas / Fornecedor |
-| Validação                   | Usuário solicitante    | –     |
-| Encerramento                | Service Desk           | –     |
-| Registro de problemas       | Governança de TI       | DITI/DSTI |
+### 5.1 Prioridade A — Crítica
+- Interrupção total de serviço essencial  
+- Rede ou data center indisponível  
+- Sistemas críticos sem acesso  
+- Falhas que impactam diretamente o cidadão  
 
----
-
-## 5. Diretrizes Operacionais
-- Todo atendimento deve ser registrado no sistema oficial da DITI.  
-- A classificação segue a matriz de prioridade A → B → C.  
-- Chamados críticos exigem registro de incidente com rastreabilidade.  
-- Nenhum chamado pode ser encerrado sem validação do usuário.  
-- Atendimentos presenciais ocorrem somente após triagem formal.  
-- Evidências técnicas (prints, logs) são obrigatórias em incidentes.  
-- Desvio de SLA requer Análise de Causa (5 porquês / Ishikawa).
+**TMR:** até 15 minutos  
+**TMS:** até 4 horas  
+**Ação obrigatória:** abertura de incidente + relatório pós-evento  
 
 ---
 
-## 6. Integração com Governança, Auditoria e Lakehouse
-O cumprimento deste SLA permite:
-- Regularidade das coletas de dados  
-- Rastreabilidade dos incidentes  
-- Melhoria contínua do catálogo de serviços  
-- Confiabilidade para automações e ETL  
-- Integração com o Data Lakehouse e RAJIS (Pessoa–Família–Território)
+### 5.2 Prioridade B — Alta
+- Problemas que afetam equipes inteiras  
+- Falhas intermitentes de rede  
+- Equipamentos essenciais parados  
+
+**TMR:** até 1 hora  
+**TMS:** até 12 horas  
 
 ---
 
-## 7. Indicadores Obrigatórios (KPIs)
-- % de atendimento dentro do SLA  
-- Tempo médio de resposta (TMR)  
-- Tempo médio de solução (TMS)  
-- Disponibilidade dos sistemas críticos  
+### 5.3 Prioridade C — Moderada
+- Demandas individuais  
+- Configurações, ajustes, permissões  
+- Troca de periféricos  
+
+**TMR:** até 4 horas  
+**TMS:** até 48 horas  
+
+---
+
+## 6. Indicadores de Desempenho (KPIs)
+
+### 6.1 Operacionais
+- % de atendimentos dentro do SLA  
+- TMR  
+- TMS  
+- MTTR (infraestrutura)  
 - % de chamados reabertos  
-- Incidentes por secretaria  
-- MTTR por categoria  
-- Top 10 problemas recorrentes  
-- Taxa de escalonamentos desnecessários  
+
+### 6.2 Disponibilidade
+- Disponibilidade da rede  
+- Disponibilidade do data center  
+- Disponibilidade da internet  
+
+### 6.3 Segurança
+- Incidentes por severidade  
+- Aplicação de patches dentro da janela de conformidade  
+- Tentativas de acesso bloqueadas  
+
+### 6.4 Continuidade
+- Sucesso dos backups diários  
+- Sucesso dos testes de restore  
+- Registro de falhas de energia (UPS / nobreak)
 
 ---
 
-## 8. Matriz RACI Operacional
+## 7. Governança Operacional
 
-| Atividade / Processo        | DITI | DSTI | Secretaria | Fornecedor |
-|-----------------------------|------|------|-----------|-----------|
-| Suporte ao usuário          | R    | C    | –         | C         |
-| Infraestrutura de redes     | R    | C    | –         | C/R       |
-| Sistemas corporativos       | –    | R    | –         | C/R       |
-| Data Center / virtualização | R    | C    | –         | C/R       |
-| Segurança da Informação     | R    | C    | –         | C         |
-| Backups / contingência      | R    | C    | –         | C         |
-| Integrações e projetos      | Um   | R    | C         | C         |
-| Governança e documentação   | Um   | R    | C         | C         |
+### 7.1 Base de Conhecimento
+Todo incidente resolvido deve gerar artigo na BK.
 
-Legenda: **R = Responsável**, **A = Aprovador**, **C = Consultado**, **Um = Unidade mínima / liderança técnica**
+### 7.2 Auditoria Interna
+A DITI deve produzir:
+- Relatório mensal de SLAs  
+- Estatísticas de incidentes  
+- Top 10 problemas  
 
----
+### 7.3 Gestão de Problemas
+Incidentes recorrentes devem gerar análise de causa raiz (ACR).
 
-## 9. Janelas de Manutenção
-- **Quartas-feiras**: 19h–22h  
-- **Sábados**: 08h–12h  
-
-Manutenções emergenciais seguem fluxo rápido de aprovação pela Diretoria.
+### 7.4 Plano de Correção Obrigatória (PCO)
+Aplicado **à equipe ou ao processo**, nunca ao servidor individual.  
+O objetivo é **melhorar o fluxo, não punir pessoas**.
 
 ---
 
-## 10. Penalidades e Prioridades
+## 8. Janelas de Manutenção
+- Quartas-feiras, 19h–22h  
+- Sábados, 08h–12h  
 
-### 10.1 Penalidades a fornecedores
-- Atraso em SLA crítico (A): multa de 5% do valor mensal  
-- Reincidência: abertura de Plano de Correção Obrigatória (PCO)
-
----
-
-### 10.2 Prioridade Institucional
-1. Serviços críticos  
-2. Processos essenciais ao cidadão  
-3. Sistemas estratégicos  
-4. Demandas operacionais  
-5. Melhorias e evoluções
+Manutenções emergenciais exigem comunicação imediata.
 
 ---
 
-## 11. Conexão com o Data Lakehouse
-O cumprimento deste SLA é pré-requisito para:
-- Confiabilidade dos dados operacionais  
-- Automação de ETL  
-- Governança técnica  
-- Redução de retrabalhos  
-- Rastreabilidade auditável  
-- Integração municipal multissecretaria (RAJIS)
+## 9. Fornecedores e Terceiros
+Sanções aplicáveis via contrato:
+- Advertência  
+- Glosa  
+- Multa conforme 14.133  
+- PCO contratual  
+
+**Jamais aplicável a servidores públicos.**
 
 ---
 
-## 12. Contatos e Escalonamento
-- **Nível 1:** Central de Atendimento  
-- **Nível 2:** DITI – Infraestrutura  
-- **Nível 3:** DSTI – Sistemas / Banco de Dados  
-- **Escalonamento executivo:** Diretoria / Secretaria de Governo  
+## 10. Conexão com o Data Lakehouse Municipal
+A regularidade dessas rotinas garante:
+- Coleta sistemática de logs  
+- Rastreabilidade de incidentes  
+- Dados confiáveis para ETL  
+- Aderência às diretrizes RAJIS  
+- Governança técnica baseada em evidências  
 
 ---
 
-## 13. Vigência
-Esta MI entra em vigor na data de sua publicação e deve ser revisada anualmente ou mediante mudanças estruturais na TI.
+## 11. Vigência
+Esta MI entra em vigor na data de sua publicação e deve ser revisada anualmente.
 
 ---
+
+## 12. Anexos
+- Anexo I — Fluxo Mermaid  
+- Anexo II — Tabelas de SLA  
+- Anexo III — Relatório de incidente  
+- Anexo IV — Matriz RACI expandida  
+
