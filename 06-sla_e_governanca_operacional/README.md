@@ -1,85 +1,106 @@
-# 06 — SLA e Governança Operacional
+# 🛠️ 06 — SLA e Governança Operacional da TI
+*Prefeitura Municipal de Hortolândia — PDTI 2026–2029*
 
-Este diretório consolida as políticas, padrões, métricas e instrumentos de governança operacional que definem a qualidade, a previsibilidade e a continuidade dos serviços de Tecnologia da Informação da Prefeitura de Hortolândia.  
-
-O objetivo é estabelecer parâmetros claros de desempenho, atendimento, disponibilidade e tempo de resposta, fortalecendo a relação entre o DITI, as demais secretarias e a população.
-
----
-
-## 1. Finalidade
-
-Este repositório reúne os elementos centrais para a gestão de SLAs (Service Level Agreements), compondo a espinha dorsal da governança operacional:
-
-- definição de níveis de serviço por categoria;
-- responsabilidades do DITI e das áreas demandantes;
-- métricas, indicadores e modelos de cálculo;
-- critérios de escalonamento e priorização;
-- modelos de relatórios mensais e dashboards;
-- integração com o Catálogo de Serviços (Catálogo DITI);
-- padronização dos fluxos de atendimento técnico.
+Este documento estabelece os **Acordos de Nível de Serviço (SLA)**, os **processos operacionais**, os **indicadores**, a **estrutura de atendimento** e os **compromissos de governança** para garantir previsibilidade, transparência e alinhamento entre DITI, DSTI e todas as secretarias municipais.
 
 ---
 
-## 2. Escopo do SLA Institucional
+## 1. Objetivos do SLA
+Os Acordos de Nível de Serviço visam:
 
-Os SLAs abrangem, entre outros:
-
-- **Suporte técnico ao usuário**  
-  (abertura de chamados, prazos, prioridades)
-
-- **Infraestrutura de Data Center**  
-  (disponibilidade, energia, refrigeração, backups)
-
-- **Redes e Conectividade**  
-  (latência, estabilidade, janelas de manutenção)
-
-- **Sistemas corporativos e integrações**  
-  (atualizações, janelas de deploy, incidentes)
-
-- **Segurança da Informação**  
-  (respostas a incidentes, monitoramento, alertas)
-
-- **Serviços de dados e analytics**  
-  Incluindo a futura operação do **Data Lakehouse Municipal**.
+- Definir padrões mínimos e mensuráveis de atendimento e operação;
+- Estabelecer expectativas claras entre TI e demais secretarias;
+- Reduzir gargalos e ruídos operacionais;
+- Garantir continuidade e previsibilidade dos serviços essenciais;
+- Criar base para indicadores, auditorias e priorização de demandas;
+- Suportar a construção do **Data Lakehouse Municipal** (2026–2029).
 
 ---
 
-## 3. Indicadores-Chave (KPIs)
+## 2. Escopo dos Serviços Abrangidos
+O SLA cobre serviços prestados por DITI e DSTI, incluindo:
 
-Os KPIs mínimos recomendados:
-
-- **Disponibilidade (%)**
-- **MTTR — Mean Time to Repair**
-- **MTBF — Mean Time Between Failures**
-- **Tempo de Resposta**
-- **Tempo de Atendimento**
-- **Taxa de Chamados Reabertos**
-- **Nível de Satisfação do Usuário (CSAT)**
-
-Esses indicadores poderão ser usados em dashboards do Power BI, Metabase ou Grafana.
-
----
-
-## 4. Classificação de Prioridade
-
-Uma matriz padrão baseada em *Impacto × Urgência*:
-
-| Prioridade | Descrição | Exemplo |
-|-----------|-----------|---------|
-| **P1 – Crítico** | Serviço parado | Data Center fora, sistema de habitação indisponível |
-| **P2 – Alto** | Degradação severa | Lentidão sistêmica, queda de rede em unidade |
-| **P3 – Médio** | Impacto moderado | Problemas isolados em estações de trabalho |
-| **P4 – Baixo** | Sem impacto operacional | Solicitações administrativas |
+- Suporte ao usuário (níveis 1, 2 e 3);
+- Data Center, servidores e storages;
+- Redes cabeadas, Wi-Fi e conectividade;
+- Sistemas corporativos e setoriais;
+- Administração de banco de dados;
+- Segurança da Informação e LGPD;
+- Gestão de incidentes, requisições e mudanças;
+- Governança de TI e registros operacionais;
+- Projetos estruturantes e integrações.
 
 ---
 
-## 5. Fluxo Operacional (Modelo Simplificado)
+# 3. Classificação dos Serviços e Criticidade
+A classificação determina prioridades de atendimento.
 
+## 3.1 Criticidade Alta (Nível A)
+**Serviços que impactam diretamente a continuidade da Prefeitura.**
+
+Exemplos:
+- Sistemas corporativos críticos (RH, Protocolo, SIGA, Tributário);
+- Rede indisponível no Paço ou secretarias essenciais;
+- Queda de servidores, banco de dados ou virtualização;
+- Falha geral em e-mail ou autenticação institucional.
+
+### SLA para Criticidade Alta
+- **Tempo de resposta:** até **30 minutos**  
+- **Prazo estimado de solução:** até **4 horas**  
+- Atendimento **imediato** por analistas nível 2/3.
+
+---
+
+## 3.2 Criticidade Média (Nível B)
+**Afeta setores específicos, mas não paralisa a Prefeitura.**
+
+Exemplos:
+- Impressoras, scanners, totens;
+- Falhas em sistemas setoriais;
+- Problemas de login individual.
+
+### SLA para Criticidade Média
+- **Tempo de resposta:** até **2 horas**  
+- **Prazo estimado de solução:** até **24 horas úteis**
+
+---
+
+## 3.3 Criticidade Baixa (Nível C)
+**Requisições rotineiras ou tarefas sem impacto operacional imediato.**
+
+Exemplos:
+- Troca de equipamento;
+- Instalação de software autorizado;
+- Ajuste de perfil de acesso.
+
+### SLA para Criticidade Baixa
+- **Tempo de resposta:** até **8 horas úteis**  
+- **Prazo estimado de solução:** até **5 dias úteis**
+
+---
+
+# 4. Fluxo de Atendimento e Governança
+
+## 4.1 Modelo Geral (ITIL 4 Adaptado)
+1. **Abertura do chamado** (usuário → Service Desk)  
+2. **Classificação automática** (criticidade A/B/C)  
+3. **Triagem** (nível 1)  
+4. **Escalonamento** (nível 2/3, se necessário)  
+5. **Resolução**  
+6. **Validação com usuário**  
+7. **Encerramento**  
+8. **Registro no catálogo de problemas** (quando aplicável)
+
+---
+
+## 4.2 Fluxo (versão esquemática em Mermaid)
 ```mermaid
-flowchart TD
-A[Abertura do Chamado] --> B[Classificação da Prioridade]
-B --> C[Designação da Equipe Responsável]
-C --> D[Execução da Ação Técnica]
-D --> E[Validação com o Usuário]
-E --> F[Encerramento e Registro no SLA]
+flowchart LR
+    A[Usuário abre chamado] --> B[Classificação (A/B/C)]
+    B --> C[Nível 1]
+    C -->|Sem solução| D[Nível 2]
+    D -->|Necessário| E[Nível 3]
+    E --> F[Resolução]
+    F --> G[Validação com usuário]
+    G --> H[Encerramento]
 
