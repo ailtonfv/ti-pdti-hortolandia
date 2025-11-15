@@ -1,6 +1,9 @@
-# PREFEITURA MUNICIPAL DE HORTOLÂNDIA  
-## SECRETARIA DE PLANEJAMENTO E GESTÃO  
-### DEPARTAMENTO DE TECNOLOGIA DA INFORMAÇÃO (DITI)
+# PREFEITURA MUNICIPAL DE HORTOLÂNDIA
+
+## Secretaria Municipal de Planejamento Urbano e Gestão Estratégica
+
+### Departamento de Infraestrutura da Tecnologia da Informação  
+### Departamento de Sistemas em Tecnologia da Informação
 
 ---
 
@@ -12,8 +15,8 @@
 ### Documento-Mestre  
 Versão: 1.0  
 Data: ______/______/2025  
-Responsável Técnico: Departamento de Tecnologia da Informação (DITI)  
-Elaboração: __________________________________________  
+
+Elaboração Técnica: Departamento de Infraestrutura da Tecnologia da Informação / Departamento de Sistemas em Tecnologia da Informação  
 Revisão: _____________________________________________  
 Aprovação: ___________________________________________
 
@@ -21,39 +24,13 @@ Aprovação: ___________________________________________
 
 ## Declaração Institucional
 
-O Plano Diretor de Tecnologia da Informação (PDTI) 2026–2029 estabelece as diretrizes, metas e iniciativas estruturantes para a Tecnologia da Informação da Prefeitura Municipal de Hortolândia, assegurando governança, continuidade administrativa, transformação digital e alinhamento ao planejamento estratégico municipal.
-
----
-
-## Sumário da Capa
-
-- Finalidade do documento  
-- Escopo institucional  
-- Responsabilidades da TI  
-- Articulação com o PPA 2026–2029  
-- Referências normativas
+O Plano Diretor de Tecnologia da Informação (PDTI) 2026–2029 é um instrumento estratégico da Secretaria Municipal de Planejamento Urbano e Gestão Estratégica, concebido pelos Departamentos de Infraestrutura da Tecnologia da Informação e de Sistemas em Tecnologia da Informação.  
+Seu objetivo é estabelecer diretrizes, metas e iniciativas para o desenvolvimento tecnológico municipal, assegurando governança, continuidade administrativa, segurança da informação e alinhamento ao planejamento estratégico da Prefeitura de Hortolândia.
 
 ---
 
 Hortolândia – SP  
 2025
-Quer avançar como?
-Posso gerar qualquer uma das versões abaixo:
-
-Folha de rosto minimalista (duas linhas, estilo TCU/CGU).
-
-Folha de rosto com brasão ASCII (visual forte para impressão).
-
-Folha de rosto para PDF, com hierarquia tipográfica reforçada.
-
-Folha de rosto integrada ao repositório, com link para o “Documento-Mestre”.
-
-Folha de rosto para distribuição interna (com campos para assinatura).
-
-Qual modelo prefere?
-
-
-
 
 
 
