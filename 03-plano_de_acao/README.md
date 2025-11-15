@@ -43,7 +43,7 @@ Distribuição temporal indicando:
 
 - início e término previstos;  
 - marcos estratégicos (milestones);  
-- dependências interprojetos;  
+- outros projetos que impactam no projeto atual(dependências interprojetos);  
 - fases (planejamento, execução, monitoramento, entrega).
 
 ### 2.3 Recursos Necessários
