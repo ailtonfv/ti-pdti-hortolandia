@@ -107,7 +107,7 @@ flowchart LR
     D -->|Resolvido| F[Encerrar chamado]
     E -->|Resolvido| F[Encerrar chamado]
 Observação: Este diagrama poderá ser exportado posteriormente para formato .svg e armazenado no diretório 99-imagens, permitindo inclusão em apresentações oficiais do PDTI e materiais técnicos da DITI/DSTI.
-````
+```
 ## 4.3 Padrões de Responsabilidade
 
 | Etapa do Processo              | Responsável Principal | Apoio |
