@@ -34,7 +34,7 @@ Lista estruturada dos projetos estratégicos de TI, contendo:
 - material + mão de obra = escopo;  
 - entregáveis;  
 - dependências;  
-- riscos;  
+- ameaças à execução do projeto;  
 - benefícios;  
 - relação com diretrizes do PDTI.
 
