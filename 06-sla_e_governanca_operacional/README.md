@@ -99,15 +99,16 @@ Este fluxo padroniza todo o ciclo de vida de um incidente ou requisição, garan
 
 ```mermaid
 flowchart LR
-    A[Usuario abre chamado] --> B[Classificacao]
-    B --> C[Nivel 1]
-    C -->|Sem solucao| D[Nivel 2]
-    D -->|Necessita especialista| E[Nivel 3]
-    C -->|Resolvido| F[Encerrar chamado]
-    D -->|Resolvido| F[Encerrar chamado]
-    E -->|Resolvido| F[Encerrar chamado]
+    A["Usuário abre chamado"] --> B["Classificação"]
+    B --> C["Nível 1"]
+    C -->|Sem solução| D["Nível 2"]
+    D -->|Necessita especialista| E["Nível 3"]
+    C -->|Resolvido| F["Encerrar chamado"]
+    D -->|Resolvido| F["Encerrar chamado"]
+    E -->|Resolvido| F["Encerrar chamado"]
 Observação: Este diagrama poderá ser exportado posteriormente para formato .svg e armazenado no diretório 99-imagens, permitindo inclusão em apresentações oficiais do PDTI e materiais técnicos da DITI/DSTI.
-```
+
+````
 ## 4.3 Padrões de Responsabilidade
 
 | Etapa do Processo              | Responsável Principal | Apoio |
