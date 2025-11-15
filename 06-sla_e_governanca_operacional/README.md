@@ -106,10 +106,8 @@ flowchart LR
     C -->|"Resolvido"| F["Encerrar chamado"]
     D -->|"Resolvido"| F
     E -->|"Resolvido"| F
-```
+Observacao: Este diagrama pode ser exportado posteriormente para o formato .svg e armazenado na pasta 99-imagens.
 
-Observacao: Este diagrama podera ser exportado posteriormente para o formato `.svg` e armazenado na pasta `99-imagens`.
-````
 ## 4.3 Padrões de Responsabilidade
 
 | Etapa do Processo              | Responsável Principal | Apoio |
