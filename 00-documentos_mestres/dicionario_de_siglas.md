@@ -1,6 +1,7 @@
 # Dicionário de Siglas — PDTI 2026–2029
 
 ##A
+
 **ACR** — Análise de Causa Raiz  
 **API** — Application Programming Interface  
 **APM** — Application Performance Monitoring  
