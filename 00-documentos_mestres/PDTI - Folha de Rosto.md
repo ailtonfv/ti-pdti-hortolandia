@@ -12,9 +12,11 @@
 ### NOVEMBRO / 2025
 ---
 
+Aprovação: ___________________________________________
 ## José Nazareno Zezé Gomes  
 Prefeito do Município de Hortolândia – SP  
 
+Aprovação: ___________________________________________
 ## Eduardo Marchetti Francisco  
 Secretário Municipal de Planejamento Urbano e Gestão Estratégica  
 
