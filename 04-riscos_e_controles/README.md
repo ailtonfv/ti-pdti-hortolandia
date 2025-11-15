@@ -96,3 +96,77 @@ A matriz segue o padrão 3x3 (Alta, Média, Baixa).
 | 08 | Ausência de catálogo de serviços e SLAs              | Alta          | Média   | Alto  | implantação do catálogo, GLPI e indicadores         |
 | 09 | Vulnerabilidades tecnológicas não corrigidas         | Média         | Média   | Médio | atualização, patch management, auditorias           |
 | 10 | Falhas em conformidade LGPD e auditorias             | Baixa         | Alta    | Médio | revisões, políticas internas, controles de acesso   |
+
+
+
+## 4. Controles Internos Recomendados
+
+### 4.1 Controles Técnicos
+- autenticação forte e revisão periódica de acessos;  
+- políticas de senhas e MFA;  
+- segmentação de redes;  
+- firewalls, IDS/IPS e antivírus;  
+- patch management contínuo;  
+- automação de logs.
+
+### 4.2 Controles Administrativos
+- políticas e normas de TI atualizadas;  
+- POPs operacionais;  
+- catálogo de serviços oficial;  
+- registro de incidentes;  
+- avaliação anual do PDTI.
+
+### 4.3 Controles de Backup e Continuidade
+- política formal de backup;  
+- retenção e segregação de cópias;  
+- testes mensais de restauração;  
+- plano de recuperação de desastres (DRP).
+
+### 4.4 Controles de Auditoria
+- relatórios periódicos de conformidade;  
+- verificação de contratos e SLAs;  
+- rastreabilidade de ações críticas.
+
+---
+
+## 5. Conformidade e LGPD
+
+A gestão de riscos deve assegurar conformidade com:
+
+- **LGPD – Lei Geral de Proteção de Dados**;  
+- **Marco Civil da Internet**;  
+- **Lei de Acesso à Informação**;  
+- **Normas Internas da Prefeitura**;  
+- **Recomendações do TCU e TCE**;  
+- **Políticas Municipais de Segurança da Informação**.
+
+Principais obrigações:
+
+- minimização de dados;  
+- medidas técnicas e administrativas adequadas;  
+- registros de tratamento;  
+- controle de acessos;  
+- resposta a incidentes;  
+- transparência.
+
+---
+
+## 6. Continuidade e Recuperação de Desastres
+
+Diretrizes essenciais:
+
+- definição de sistemas críticos e prioridades de recuperação (RTO/RPO);  
+- uso de redundância e espelhamento;  
+- armazenamento de backups fora do Data Center;  
+- plano formal de DRP;  
+- testes anuais de continuidade;  
+- procedimentos para incidentes de segurança.
+
+A continuidade garante que os serviços essenciais à população não sejam interrompidos.
+
+---
+
+## 7. Conclusão
+
+A gestão de riscos é um componente essencial do PDTI, pois protege a operação, preserva a integridade das informações e fortalece a resiliência institucional.  
+Este diretório consolida as boas práticas necessárias para orientar decisões, reduzir vulnerabilidades e garantir sustentabilidade ao longo do ciclo 2026–2029.
