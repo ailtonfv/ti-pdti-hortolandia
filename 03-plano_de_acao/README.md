@@ -33,7 +33,7 @@ Lista estruturada dos projetos estratégicos de TI, contendo:
 - por que implementar;  
 - material + mão de obra = escopo;  
 - entregáveis;  
-- dependências;  
+- itens importantes relacionados ao projeto;  
 - ameaças à execução do projeto;  
 - benefícios;  
 - relação com diretrizes do PDTI.
