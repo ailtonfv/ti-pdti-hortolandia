@@ -4,7 +4,6 @@
 
 ---
 
-
 ## 1. Finalidade
 Estabelecer o Acordo de Nível de Serviço (SLA) específico para as atividades de **desenvolvimento, manutenção evolutiva, sustentação de sistemas, APIs e integrações**, conduzidas pelo **DSTI**.
 
