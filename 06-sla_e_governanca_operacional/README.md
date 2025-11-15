@@ -78,10 +78,10 @@ Exemplos:
 - **Prazo estimado de solução:** até **5 dias úteis**
 
 ---
-
 # 4. Fluxo de Atendimento e Governança
 
 ## 4.1 Modelo Geral (ITIL 4 Adaptado)
+
 1. **Abertura do chamado** (usuário → Service Desk)  
 2. **Classificação automática** (criticidade A/B/C)  
 3. **Triagem** (nível 1)  
@@ -89,11 +89,14 @@ Exemplos:
 5. **Resolução**  
 6. **Validação com usuário**  
 7. **Encerramento**  
-8. **Registro no catálogo de problemas** (quando aplicável)
+8. **Registro no Catálogo de Problemas** (quando aplicável)
+
+Este fluxo padroniza todo o ciclo de vida de um incidente ou requisição, garantindo previsibilidade, eficiência e rastreabilidade operacional.
 
 ---
 
 ## 4.2 Fluxo (versão esquemática em Mermaid)
+
 ```mermaid
 flowchart LR
     A[Usuário abre chamado] --> B[Classificação (A/B/C)]
@@ -103,4 +106,129 @@ flowchart LR
     E --> F[Resolução]
     F --> G[Validação com usuário]
     G --> H[Encerramento]
+Observação: Este diagrama poderá ser exportado posteriormente para formato .svg e armazenado no diretório 99-imagens, permitindo inclusão em apresentações oficiais do PDTI e materiais técnicos da DITI/DSTI.
+## 4.3 Padrões de Responsabilidade
 
+| Etapa do Processo              | Responsável Principal | Apoio |
+|-------------------------------|------------------------|-------|
+| Abertura do chamado           | Usuário / Secretaria   | —     |
+| Classificação e triagem       | Nível 1 (Service Desk) | —     |
+| Escalonamento técnico         | DITI/DSTI (Nível 2/3)  | Fornecedores |
+| Resolução                     | Equipe técnica         | Fornecedor / Sistemas |
+| Validação                     | Usuário solicitante    | —     |
+| Encerramento                  | Service Desk           | —     |
+| Registro de problema          | Governança de TI       | DITI/DSTI |
+
+---
+
+## 4.4 Diretrizes Operacionais
+
+- Chamados devem ser **registrados exclusivamente pelo sistema oficial de atendimento**, garantindo rastreabilidade.  
+- Escalonamentos devem seguir **fila de prioridade baseada no SLA** (A → B → C).  
+- Todo chamado crítico deve gerar ao menos **um registro de incidente** para auditoria.  
+- No encerramento, é **proibido** encerrar chamado sem confirmação explícita do usuário (exceto casos de força maior).  
+- Problemas recorrentes devem ser classificados como **“Problema”** e tratados como ação preventiva.  
+- Toda intervenção técnica deve ser documentada na **base de conhecimento (POP)**.  
+- Atendimentos presenciais só ocorrem após triagem e registro formal.
+
+---
+
+## 4.5 Integração com Governança e Auditoria
+
+O fluxo de atendimento integra-se diretamente a:
+
+- **Governança LGPD** (registro, finalidade, minimização e controles);  
+- **Controles Internos Municipais**;  
+- **Auditorias** internas e externas (Tribunal de Contas, CGM, PGM);  
+- **Gestão de Continuidade** (BCP/DRP);  
+- **Indicadores estratégicos** (KPIs operacionais e táticos);  
+- **Arquitetura de Dados**, como base para:  
+  - catálogos, logs e trilhas de auditoria;  
+  - ingestão automatizada no **Data Lakehouse Municipal**;  
+  - análises de desempenho e previsões futuras.
+
+---
+
+---
+# 5. Indicadores (KPIs) Obrigatórios
+KPIs mínimos para monitoramento:
+
+- **% de atendimento no prazo do SLA**  
+- **Tempo médio de resposta (TMR)**  
+- **Tempo médio de solução (TMS)**  
+- **Número de incidentes por secretaria**  
+- **Top 10 problemas recorrentes**  
+- **Disponibilidade dos sistemas críticos**  
+- **Tickets reabertos (%)**  
+- **Uso da fila de prioridade (A/B/C)**
+
+---
+
+# 6. Matriz RACI Operacional
+
+| Atividade / Processo                     | DITI | DSTI | Secretaria | Fornecedor |
+|------------------------------------------|------|------|------------|-----------|
+| Suporte ao usuário                       | R    | A    | C          | C         |
+| Administração de redes                   | R    | C    | C          | A/R       |
+| Gestão de sistemas corporativos          | C    | R    | C          | A/R       |
+| Data Center e virtualização              | R    | C    | C          | A/R       |
+| Segurança da Informação                  | R    | C    | C          | C         |
+| Backups e contingência                   | R    | C    | C          | C         |
+| Projetos e integrações                   | A    | R    | C          | C         |
+| Governança e documentação                | A    | R    | C          | C         |
+
+Legenda:  
+- **R** = Responsável  
+- **A** = Aprovador  
+- **C** = Consultado  
+
+---
+
+# 7. Janelas de Manutenção Programada
+Manutenções poderão ocorrer em:
+
+- **Quartas-feiras, 19h–22h**  
+- **Sábados, 08h–12h**
+
+Avisos devem ser enviados com **48 horas de antecedência**.  
+Manutenções emergenciais seguem fluxo de comunicação rápida.
+
+---
+
+# 8. Penalidades e Regras de Prioridade
+
+## 8.1 Penalidades
+Para fornecedores terceirizados com SLA contratado:
+
+- Atraso em SLA crítico (A): **–5%** do valor mensal  
+- Reincidência superior a 3 meses: **Plano de Correção Obrigatório (PCO)**
+
+## 8.2 Prioridade Institucional
+Em caso de demanda simultânea, a ordem é:
+
+1. Serviços críticos do governo;  
+2. Processos essenciais ao cidadão;  
+3. Sistemas estratégicos;  
+4. Demandas operacionais;  
+5. Requisições de melhoria.
+
+---
+
+# 9. Conexão com o Data Lakehouse
+O cumprimento deste SLA é **pré-requisito** para a implantação do Lakehouse Municipal, pois:
+
+- Aumenta a qualidade e regularidade das coletas;  
+- Cria rastreabilidade institucional;  
+- Reduz interrupções e falhas operacionais;  
+- Estabelece disciplina técnica de governança;  
+- Garante maturidade mínima para ingestão contínua.  
+
+---
+
+# 10. Contatos e Escalonamento
+- **Nível 1:** Service Desk  
+- **Nível 2:** DITI (Infraestrutura)  
+- **Nível 3:** DSTI (Sistemas / Banco de Dados)  
+- **Escalonamento executivo:** Diretoria / Secretaria de Governo  
+
+---
