@@ -39,7 +39,7 @@ Material adicional que reforça o conteúdo técnico dos capítulos anteriores:
 
 - tabelas expandidas de inventário;  
 - diagramas auxiliares;  
-- relatórios operacionais;  
+- relatórios operacionais - RO;  
 - levantamentos de infraestrutura;  
 - registros de sistemas e integrações;  
 - informações relevantes para auditorias e planejamento.
