@@ -12,7 +12,7 @@ O Plano de Ação é o elo entre o **Diagnóstico (Diretório 01)** e a **execu�
 
 O Plano de Ação tem como finalidade:
 
-- converter diretrizes em ações executáveis;  
+- convertimento das  diretrizes em ações executáveis;  
 - estruturar o portfólio de projetos de TI;  
 - garantir coerência entre planejamento, orçamento e capacidade técnica;  
 - fornecer visibilidade e previsibilidade às secretarias;  
