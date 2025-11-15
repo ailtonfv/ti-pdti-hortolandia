@@ -30,8 +30,8 @@ Lista estruturada dos projetos estratégicos de TI, contendo:
 
 - nome do projeto;  
 - descrição;  
-- justificativa;  
-- escopo;  
+- por que implementar;  
+- material + mão de obra = escopo;  
 - entregáveis;  
 - dependências;  
 - riscos;  
