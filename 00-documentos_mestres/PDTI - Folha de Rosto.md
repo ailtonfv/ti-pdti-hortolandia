@@ -1,57 +1,52 @@
-# PREFEITURA MUNICIPAL DE HORTOLÂNDIA
+PREFEITURA MUNICIPAL DE HORTOLÂNDIA  
+Secretaria Municipal de Planejamento Urbano e Gestão Estratégica  
 
-## Secretaria Municipal de Planejamento Urbano e Gestão Estratégica
+Departamento de Infraestrutura da Tecnologia da Informação (DITI)  
+Departamento de Sistemas em Tecnologia da Informação (DSTI)
 
-### Departamento de Infraestrutura da Tecnologia da Informação  
-### Departamento de Sistemas em Tecnologia da Informação
+-------------------------------------------------------------
 
----
+PLANO DIRETOR DE TECNOLOGIA DA INFORMAÇÃO  
+PDTI 2026–2029  
+NOVEMBRO / 2025
 
-# PLANO DIRETOR DE TECNOLOGIA DA INFORMAÇÃO  
-## PDTI 2026–2029
-### NOVEMBRO / 2025
----
+-------------------------------------------------------------
 
-Aprovação: ___________________________________________
-## José Nazareno Zezé Gomes  
-Prefeito do Município de Hortolândia – SP  
+Aprovação
 
-Aprovação: ___________________________________________
-## Eduardo Marchetti Francisco  
-Secretário Municipal de Planejamento Urbano e Gestão Estratégica  
+___________________________________________  
+José Nazareno Zezé Gomes  
+Prefeito do Município de Hortolândia – SP
 
----
+___________________________________________  
+Eduardo Marchetti Francisco  
+Secretário Municipal de Planejamento Urbano e Gestão Estratégica
 
-# Documento-Mestre  
+-------------------------------------------------------------
+
+Documento-Mestre  
 Versão: 1.0  
-Data: ___ / ___ / 2025
+Data: ___ / ___ / 2025  
+Revisão: _____________________________________________
 
-Elaboração Técnica: Departamento de Infraestrutura da Tecnologia da Informação / Departamento de Sistemas em Tecnologia da Informação  
+-------------------------------------------------------------
 
-Aprovação: ___________________________________________
+Declaração Institucional
 
----
-
-## Declaração Institucional
-
-O Plano Diretor de Tecnologia da Informação (PDTI) 2026–2029 é um instrumento estratégico da Secretaria Municipal de Planejamento Urbano e Gestão Estratégica, elaborado pelos Departamentos de Infraestrutura da Tecnologia da Informação e de Sistemas em Tecnologia da Informação.
+O Plano Diretor de Tecnologia da Informação (PDTI) 2026–2029 é um instrumento estratégico da Secretaria Municipal de Planejamento Urbano e Gestão Estratégica, elaborado pelo Departamento de Infraestrutura da Tecnologia da Informação (DITI) e pelo Departamento de Sistemas em Tecnologia da Informação (DSTI).
 
 Seu objetivo é estabelecer diretrizes, metas e iniciativas estruturantes para o desenvolvimento tecnológico municipal, garantindo governança, continuidade administrativa, segurança da informação e alinhamento ao planejamento estratégico da Prefeitura Municipal de Hortolândia.
 
-
----
-
-# Documento-Mestre  
-Versão: 1.0  
-Data: ___ / ___ / 2025
-
-Elaboração Técnica: Departamento de Infraestrutura da Tecnologia da Informação / Departamento de Sistemas em Tecnologia da Informação  
-
----
+-------------------------------------------------------------
 
 Hortolândia – SP  
-2025
+Novembro de 2025
 
+Prefeitura Municipal de Hortolândia  
+Palácio dos Migrantes – Paço Municipal “Ângelo Augusto Perugini”  
+Rua Profª Celina Franceschini Bueno, nº 100 – Jardim Metropolitano – Hortolândia – SP  
+CEP: 13184-792 • Telefone: (19) 3965-1400  
+www.hortolandia.sp.gov.br
 
-
+---
 
