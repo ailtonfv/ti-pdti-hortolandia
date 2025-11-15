@@ -1,13 +1,39 @@
-# Plano de Ação
+### Projeto: [nome do projeto]
 
-Este diretório reúne o plano de ação estruturado que transforma as diretrizes e os objetivos do PDTI em iniciativas concretas, mensuráveis e realizáveis no ciclo 2026–2029.
+**Descrição**:  
+[descrição objetiva e clara]
 
-Inclui:
+**Justificativa**:  
+[por que o projeto é necessário]
 
-- Portfólio de projetos de tecnologia da informação.
-- Cronograma macro e marcos estratégicos.
-- Recursos necessários (humanos, materiais, financeiros).
-- Estimativas de esforço, riscos associados e critérios de priorização.
-- Entregáveis previstos e mecanismos de monitoramento.
+**Objetivo do Projeto**:  
+[resultado esperado]
 
-O plano de ação é o elo entre o diagnóstico e a execução, garantindo clareza operacional e foco em resultados para a administração municipal.
+**Escopo**:  
+[o que será feito; o que NÃO será feito]
+
+**Entregáveis**:  
+- item 1  
+- item 2  
+- item 3  
+
+**Dependências**:  
+[sistemas, equipes, fornecedores, PPA]
+
+**Riscos Identificados**:  
+- risco 1  
+- risco 2  
+- risco 3  
+
+**Esforço**:  
+Baixo / Médio / Alto
+
+**Prazo Estimado**:  
+[previsão macro]
+
+**Responsáveis**:  
+DITI / DSTI / Secretaria demandante
+
+**Vínculo com as Diretrizes do PDTI**:  
+[qual diretriz o projeto atende]
+
