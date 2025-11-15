@@ -97,8 +97,6 @@ Este fluxo padroniza todo o ciclo de vida de um incidente ou requisição, garan
 
 ## 4.2 Fluxo (versão esquemática em Mermaid)
 
-## 4.2 Fluxo (versão esquemática em Mermaid)
-
 ```mermaid
 flowchart LR
     A[Usuário abre chamado] --> B[Classificação]
@@ -109,6 +107,7 @@ flowchart LR
     D -->|Resolvido| F[Encerrar chamado]
     E -->|Resolvido| F[Encerrar chamado]
 Observação: Este diagrama poderá ser exportado posteriormente para formato .svg e armazenado no diretório 99-imagens, permitindo inclusão em apresentações oficiais do PDTI e materiais técnicos da DITI/DSTI.
+````
 ## 4.3 Padrões de Responsabilidade
 
 | Etapa do Processo              | Responsável Principal | Apoio |
@@ -148,8 +147,6 @@ O fluxo de atendimento integra-se diretamente a:
   - catálogos, logs e trilhas de auditoria;  
   - ingestão automatizada no **Data Lakehouse Municipal**;  
   - análises de desempenho e previsões futuras.
-
----
 
 ---
 # 5. Indicadores (KPIs) Obrigatórios
