@@ -1,4 +1,4 @@
----
+# Dicionário de Siglas — PDTI 2026–2029
 
 ## A
 **ACR** — Análise de Causa Raiz  
@@ -8,176 +8,136 @@
 **AVD** — Aplicações Virtuais Distribuídas  
 
 ## B
+**BCP** — Business Continuity Plan  
 **BD** — Banco de Dados  
 **BI** — Business Intelligence  
-**BIA** — Business Impact Analysis  
-**BPMN** — Business Process Model and Notation  
-**BYOD** — Bring Your Own Device  
+**BPM** — Business Process Management  
 
 ## C
-**CAPEX** — Capital Expenditure  
-**CAT** — Catálogo de Serviços de TI  
-**CI** — Configuration Item (ITIL)  
-**CIO** — Chief Information Officer  
+**CAD** — Cadastro  
+**CCE** — Comitê de Comunicação Estratégica  
+**CGM** — Controladoria-Geral do Município  
 **CMDB** — Configuration Management DataBase  
-**CNJ** — Conselho Nacional de Justiça  
-**COBIT** — Control Objectives for Information and Related Technologies  
-**CPU** — Central Processing Unit  
+**COBIT** — Control Objectives for Information and Related Technology  
+**CRM** — Customer Relationship Management  
 **CSIRT** — Computer Security Incident Response Team  
 **CSV** — Comma-Separated Values  
-**CTO** — Chief Technology Officer  
-**CVSS** — Common Vulnerability Scoring System  
 
 ## D
-**DAMA-DMBOK** — Data Management Body of Knowledge  
-**DevOps** — Development + Operations  
+**DAI** — Departamento de Análise e Inteligência  
+**DAMA** — Data Management Association  
+**DBA** — Database Administrator  
+**DevOps** — Development and Operations  
 **DITI** — Departamento de Infraestrutura de Tecnologia da Informação  
-**DNS** — Domain Name System  
-**DPO** — Data Protection Officer  
-**DSL** — Digital Subscriber Line  
-**DSTI** — Departamento de Sistemas e Tecnologia da Informação  
-**DW** — Data Warehouse  
+**DSTI** — Departamento de Soluções em Tecnologia da Informação  
+**DRP** — Disaster Recovery Plan  
 
 ## E
-**ECM** — Enterprise Content Management  
-**ETL** — Extract, Transform, Load  
 **ELT** — Extract, Load, Transform  
-**ESB** — Enterprise Service Bus  
-**ERP** — Enterprise Resource Planning  
-**ESG** — Environmental, Social and Governance  
+**ETL** — Extract, Transform, Load  
 
 ## F
 **FAQ** — Frequently Asked Questions  
-**FTP** — File Transfer Protocol  
 
 ## G
-**GAP** — Gap Analysis  
-**GAE** — Gestão de Ativos de Equipamentos  
-**GDPR** — General Data Protection Regulation  
-**GLPI** — Gestionnaire Libre de Parc Informatique  
-**GPU** — Graphics Processing Unit  
-**GTI** — Governança de Tecnologia da Informação  
+**GAE** — Gestão de Ativos e Estoques  
+**GDPR** — General Data Protection Regulation (regulamento europeu)  
+**GIS** — Geographic Information System  
+**Git** — Sistema distribuído de versionamento de código  
+**GitHub** — Plataforma de hospedagem e controle de versões  
 
 ## H
+**HTML** — HyperText Markup Language  
 **HTTP** — HyperText Transfer Protocol  
-**HTTPS** — HyperText Transfer Protocol Secure  
 
 ## I
 **IA** — Inteligência Artificial  
+**IAM** — Identity and Access Management  
 **ICMP** — Internet Control Message Protocol  
-**ID** — Identificador Único  
-**IETF** — Internet Engineering Task Force  
-**IGOV** — Índice de Governança  
-**ILMT** — IBM License Metric Tool  
-**IMAP** — Internet Message Access Protocol  
-**IN** — Instrução Normativa  
-**IoT** — Internet of Things  
-**IP** — Internet Protocol  
-**ISO** — International Organization for Standardization  
-**ITAM** — IT Asset Management  
+**IaaS** — Infrastructure as a Service  
 **ITIL** — Information Technology Infrastructure Library  
-**ITSM** — IT Service Management  
 
 ## J
 **JSON** — JavaScript Object Notation  
-**JVM** — Java Virtual Machine  
 
 ## K
 **KPI** — Key Performance Indicator  
-**KRI** — Key Risk Indicator  
+**KVM** — Kernel-based Virtual Machine  
 
 ## L
-**LAN** — Local Area Network  
+**LGPD** — Lei Geral de Proteção de Dados  
 **LDAP** — Lightweight Directory Access Protocol  
-**LGPD** — Lei Geral de Proteção de Dados (Lei 13.709/2018)  
-**LRS** — Log de Rastreabilidade de Serviço  
 
 ## M
-**MAC** — Media Access Control  
 **MDM** — Master Data Management  
-**MER** — Modelo Entidade-Relacionamento  
-**MI-2025** — Modelos Institucionais 2025 (DITI/DSTI)  
-**MITRE ATT&CK** — Matriz de Ameaças e Técnicas Cibernéticas  
-**MLOps** — Machine Learning Operations  
-**MTR** — Mean Time to Recovery  
-**MTTF** — Mean Time To Failure  
-**MTTR** — Mean Time To Repair/Resolve  
+**MDF** — Modelo de Dados Funcional  
+**MI** — Modelo Institucional  
+**ML** — Machine Learning  
+**MOU** — Memorandum of Understanding  
 
 ## N
+**NIS** — Número de Identificação Social  
 **NOC** — Network Operations Center  
-**NTP** — Network Time Protocol  
 
 ## O
-**OPEX** — Operational Expenditure  
-**OSPF** — Open Shortest Path First  
+**OCS** — Organização da Sociedade Civil  
+**OCR** — Optical Character Recognition  
+**OMT** — Organização Municipal de Tecnologia  
 
 ## P
-**PABX** — Private Automatic Branch Exchange  
 **PCO** — Plano de Correção Obrigatória  
-**PDTI** — Plano Diretor de Tecnologia da Informação  
-**PIB** — Produto Interno Bruto  
-**PMI** — Project Management Institute  
-**PPA** — Plano Plurianual  
+**PII** — Personally Identifiable Information  
+**PMP** — Project Management Professional  
+**POA** — Plano Operacional Anual  
 **POP** — Procedimento Operacional Padrão  
-**PSI** — Política de Segurança da Informação  
-**PVC** — Planos de Verificação e Controle  
+**PPA** — Plano Plurianual  
+**PDTI** — Plano Diretor de Tecnologia da Informação  
 
 ## Q
-**QR Code** — Quick Response Code  
+**QoS** — Quality of Service  
 
 ## R
 **RAID** — Redundant Array of Independent Disks  
-**RAJIS** — Referencial Analítico de Justiça Social (Pessoa–Família–Território)  
+**RAJIS** — Registro Analítico de Justificativa Intersetorial  
 **RACI** — Responsible, Accountable, Consulted, Informed  
-**RAM** — Random Access Memory  
-**RDP** — Remote Desktop Protocol  
-**RFI** — Request for Information  
-**RFP** — Request for Proposal  
-**RFQ** — Request for Quotation  
-**ROI** — Return on Investment  
+**REST** — Representational State Transfer  
 
 ## S
 **SaaS** — Software as a Service  
-**SCM** — Software Configuration Management  
-**SCP** — Secure Copy Protocol  
-**SDN** — Software Defined Network  
-**SIEM** — Security Information and Event Management  
-**SIG** — Sistema de Informação Gerencial  
-**SISP** — Sistema de Administração dos Recursos de Tecnologia da Informação (Governo Federal)  
+**SFTP** — Secure File Transfer Protocol  
+**SGD** — Sistema de Gestão de Documentos  
+**SIGAS** — Sistema de Gestão da Assistência Social  
 **SLA** — Service Level Agreement  
-**SMTP** — Simple Mail Transfer Protocol  
-**SNMP** — Simple Network Management Protocol  
-**SOAR** — Security Orchestration, Automation and Response  
-**SSL/TLS** — Secure Sockets Layer / Transport Layer Security  
+**SO** — Sistema Operacional  
+**SQL** — Structured Query Language  
 **SSH** — Secure Shell  
 
 ## T
-**TCE** — Tribunal de Contas do Estado  
-**TCP/IP** — Transmission Control Protocol / Internet Protocol  
-**TI** — Tecnologia da Informação  
+**TCO** — Total Cost of Ownership  
 **TIC** — Tecnologia da Informação e Comunicação  
-**TMR** — Tempo Médio de Resposta  
 **TMS** — Tempo Médio de Solução  
+**TMR** — Tempo Médio de Resposta  
 
 ## U
-**UPS** — Uninterruptible Power Supply  
+**UDP** — User Datagram Protocol  
 **URL** — Uniform Resource Locator  
 **UX** — User Experience  
 
 ## V
-**VPN** — Virtual Private Network  
 **VLAN** — Virtual Local Area Network  
 **VM** — Virtual Machine  
-**VoIP** — Voice over IP  
+**VPN** — Virtual Private Network  
 
 ## W
 **WAN** — Wide Area Network  
 **WAF** — Web Application Firewall  
-**WPA2/WPA3** — Wireless Protected Access  
 
-## X, Y, Z
-**XML** — Extensible Markup Language  
-**ZTP** — Zero Touch Provisioning  
+## X
+*(Sem siglas relevantes no contexto do PDTI)*
 
----
+## Y
+*(Sem siglas relevantes no contexto do PDTI)*
+
+## Z
+*(Sem siglas relevantes no contexto do PDTI)*
 
