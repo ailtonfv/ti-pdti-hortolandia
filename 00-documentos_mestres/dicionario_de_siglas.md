@@ -1,6 +1,6 @@
 # Dicionário de Siglas — PDTI 2026–2029
 
-## A
+# # A
 
 **ACR** — Análise de Causa Raiz  
 **API** — Interface de Programação de Aplicações  
