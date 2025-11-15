@@ -11,7 +11,7 @@ PDTI 2026–2029
 NOVEMBRO / 2025
 
 -------------------------------------------------------------
-
+aprovações
 
 
 
@@ -31,6 +31,59 @@ Data: ___ / ___ / 2025
 Revisão: _____________________________________________
 
 -------------------------------------------------------------
+
+Coordenação Geral
+
+Nome do Coordenador
+Cargo
+
+Elaboração Técnica – Departamento de Infraestrutura da Tecnologia da Informação (DITI)
+
+Nome do Servidor
+Cargo / Função
+
+Nome do Servidor
+Cargo / Função
+
+Nome do Servidor
+Cargo / Função
+
+Elaboração Técnica – Departamento de Sistemas em Tecnologia da Informação (DSTI)
+
+Nome do Servidor
+Cargo / Função
+
+Nome do Servidor
+Cargo / Função
+
+Nome do Servidor
+Cargo / Função
+
+Revisão Técnica
+
+Nome
+Cargo / Função
+
+Validação Institucional
+
+Nome
+Cargo
+
+Hortolândia – SP
+Novembro de 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Declaração Institucional
 
