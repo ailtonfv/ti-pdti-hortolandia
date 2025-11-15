@@ -1,10 +1,10 @@
 # Dicionário de Siglas — PDTI 2026–2029
 
-##A
+## A
 
 **ACR** — Análise de Causa Raiz  
-**API** — Application Programming Interface  
-**APM** — Application Performance Monitoring  
+**API** — Interface de Programação de Aplicações  
+**APM** — Monitoramento de Desempenho de Aplicações  
 **ATI** — Área de Tecnologia da Informação  
 **AVD** — Aplicações Virtuais Distribuídas  
 
