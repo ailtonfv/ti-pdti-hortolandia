@@ -16,6 +16,21 @@ As diretrizes aqui apresentadas fundamentam:
 
 Este componente do PDTI estabelece um mapa estratégico claro, orientando decisões, investimentos, prioridades e resultados esperados.
 
+### Tabela 1 — Componentes da Arquitetura Geral de TI Municipal
+
+| Camada / Bloco                         | Descrição Técnica                                                                                                    |
+|----------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| **Infraestrutura de TI**               | Conjunto de servidores, switches, firewall, storage, backup, virtualização, links, Wi-Fi institucional e Data Center. |
+| **Catálogo de Serviços de TI**         | Lista oficial de serviços oferecidos pela DITI/DSTI às secretarias: e-mail, suporte, redes, sistema, infraestrutura, etc. |
+| **Sistemas Municipais**                | Aplicações operacionais mantidas pelo DITI/DSTI, incluindo sistemas próprios, contratados e integrados.               |
+| **Base de Dados Municipal**            | Bancos relacionais, não-relacionais, bases externas (federais/estaduais), repositórios e armazenamento de dados.      |
+| **Integrações Internas**               | Conexões entre sistemas municipais, APIs internas, interoperabilidade intra-secretarias.                              |
+| **Integrações Externas**               | Conexões com CadÚnico, SIGEM, SICONV, CNES, Receita Federal, Estado, Governo Federal e demais sistemas externos.      |
+| **Arquitetura RAJIS**                  | Modelo Pessoa–Família–Território–Serviço que unifica dados de políticas públicas e orienta a interoperabilidade.      |
+| **Segurança da Informação**            | Controles de LGPD, autenticação, permissões, backup seguro, firewall, monitoramento, trilhas de auditoria e políticas. |
+| **Lakehouse Municipal (Visão Futuro)** | Plataforma unificada de dados estruturados e semiestruturados, com governança, qualidade, catalogação e metadados.     |
+| **Governança de Dados**                | Estruturas LGPD, Comitê de Dados, normas internas, políticas de acesso, monitoramento de qualidade e padronização.     |
+| **Interoperabilidade Institucional**   | Conjunto de padrões, APIs, fluxos e métodos para conexão entre sistemas municipais, estaduais e federais.              |
 ---
 
 ## 1. Propósito das Diretrizes
