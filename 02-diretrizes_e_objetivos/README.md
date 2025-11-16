@@ -21,7 +21,7 @@ Este componente do PDTI estabelece um mapa estratégico claro, orientando decis�
 | Camada / Bloco                         | Descrição Técnica                                                                                                    |
 |----------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | **Infraestrutura de TI**               | Conjunto de servidores, switches, firewall, storage, backup, virtualização, links, Wi-Fi institucional e Data Center. |
-| **Catálogo de Serviços de TI**         | Lista oficial de serviços oferecidos pela DITI/DSTI às secretarias: e-mail, suporte, redes, sistema, infraestrutura, etc. |
+| **Mapa dos Serviços de TI**            | Lista oficial de serviços oferecidos pela DITI/DSTI às secretarias: e-mail, suporte, redes, sistema, infraestrutura, etc. |
 | **Sistemas Municipais**                | Aplicações operacionais mantidas pelo DITI/DSTI, incluindo sistemas próprios, contratados e integrados.               |
 | **Base de Dados Municipal**            | Bancos relacionais, não-relacionais, bases externas (federais/estaduais), repositórios e armazenamento de dados.      |
 | **Integrações Internas**               | Conexões entre sistemas municipais, APIs internas, interoperabilidade intra-secretarias.                              |
