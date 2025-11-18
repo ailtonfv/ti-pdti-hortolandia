@@ -115,9 +115,9 @@ Observacao: Este diagrama pode ser exportado posteriormente para o formato .svg 
 |------------------------------|----------------------------------|-----------------|-----------------------------|
 | **1. Abertura do chamado**   | Usuário / Secretaria             | —               | —                           |
 | **2. Classificação e triagem** | Central de Atendimento          | Nível 1         | —                           |
-| **3. Escalonamento técnico** | DITI/DSTI                        | Nível 2         | Sistemas / Fornecedores     |
-| **4. Diagnóstico avançado**  | Equipe técnica                   | Nível 3         | Consultoria / Fornecedores  |
-| **5. Resolução**             | Equipe técnica                   | Nível 2/3       | Sistemas / Fornecedores     |
+| **3. Escalonamento técnico** | DITI/DSTI                        | Nível 2         | Sistemas / fornecedores     |
+| **4. Diagnóstico avançado**  | Equipe técnica                   | Nível 3         | Consultoria / fornecedores  |
+| **5. Resolução**             | Equipe técnica                   | Nível 2/3       | Sistemas / fornecedores     |
 | **6. Validação**             | Usuário solicitante              | —               | Central de Atendimento       |
 | **7. Encerramento**          | Central de Atendimento           | Nível 1         | —                           |
 | **8. Registro da causa raiz** | Governança de TI / DPO          | —               | DITI/DSTI                   |
