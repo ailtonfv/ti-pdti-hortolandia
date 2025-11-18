@@ -122,7 +122,28 @@ Observacao: Este diagrama pode ser exportado posteriormente para o formato .svg 
 | Registro de problema          | Governança de TI       | DITI/DSTI |
 
 ---
+## 4.3 Padrões de Responsabilidade (Níveis de Atendimento)
 
+A matriz abaixo define as responsabilidades do processo de atendimento a chamados,
+estruturada segundo os níveis de suporte (N1, N2 e N3), em conformidade com ITIL v4
+e práticas da Prefeitura de Hortolândia.
+
+| Etapa do Processo            | Responsável Principal            | Nível | Apoio                       |
+|------------------------------|----------------------------------|-------|-----------------------------|
+| **1. Abertura do chamado**   | Usuário / Secretaria             | —     | —                           |
+| **2. Classificação e triagem** | Service Desk                    | Nível 1 | —                         |
+| **3. Escalonamento técnico** | DITI/DSTI                        | Nível 2 | Fornecedores / Sistemas   |
+| **4. Diagnóstico avançado**  | Equipe técnica especializada     | Nível 3 | Fornecedor / Consultoria  |
+| **5. Resolução**             | Equipe técnica                   | Nível 2/3 | Fornecedor / Sistemas     |
+| **6. Validação**             | Usuário solicitante              | —     | Service Desk               |
+| **7. Encerramento**          | Service Desk                     | Nível 1 | —                         |
+| **8. Registro da causa raiz** | Governança de TI / DPO (se aplicável) | — | DITI/DSTI                 |
+
+
+
+
+
+---
 ## 4.4 Diretrizes Operacionais
 
 - Chamados devem ser **registrados exclusivamente pelo sistema oficial de atendimento**, garantindo rastreabilidade.  
