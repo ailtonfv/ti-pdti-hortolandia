@@ -111,33 +111,16 @@ Observacao: Este diagrama pode ser exportado posteriormente para o formato .svg 
 
 ## 4.3 Padrões de Responsabilidade
 
-| Etapa do Processo              | Responsável Principal | Apoio |
-|-------------------------------|------------------------|-------|
-| Abertura do chamado           | Usuário / Secretaria   | —     |
-| Classificação e triagem       | Nível 1 (Service Desk) | —     |
-| Escalonamento técnico         | DITI/DSTI (Nível 2/3)  | Fornecedores |
-| Resolução                     | Equipe técnica         | Fornecedor / Sistemas |
-| Validação                     | Usuário solicitante    | —     |
-| Encerramento                  | Service Desk           | —     |
-| Registro de problema          | Governança de TI       | DITI/DSTI |
-
----
-## 4.3 Padrões de Responsabilidade (Níveis de Atendimento)
-
-A matriz abaixo define as responsabilidades do processo de atendimento a chamados,
-estruturada segundo os níveis de suporte (N1, N2 e N3), em conformidade com ITIL v4
-e práticas da Prefeitura de Hortolândia.
-
-| Etapa do Processo            | Responsável Principal            | Nível | Apoio                       |
-|------------------------------|----------------------------------|-------|-----------------------------|
-| **1. Abertura do chamado**   | Usuário / Secretaria             | —     | —                           |
-| **2. Classificação e triagem** | Service Desk                    | Nível 1 | —                         |
-| **3. Escalonamento técnico** | DITI/DSTI                        | Nível 2 | Fornecedores / Sistemas   |
-| **4. Diagnóstico avançado**  | Equipe técnica especializada     | Nível 3 | Fornecedor / Consultoria  |
-| **5. Resolução**             | Equipe técnica                   | Nível 2/3 | Fornecedor / Sistemas     |
-| **6. Validação**             | Usuário solicitante              | —     | Service Desk               |
-| **7. Encerramento**          | Service Desk                     | Nível 1 | —                         |
-| **8. Registro da causa raiz** | Governança de TI / DPO (se aplicável) | — | DITI/DSTI                 |
+| Etapa do Processo            | Responsável Principal            | Nível           | Apoio                       |
+|------------------------------|----------------------------------|-----------------|-----------------------------|
+| **1. Abertura do chamado**   | Usuário / Secretaria             | —               | —                           |
+| **2. Classificação e triagem** | Central de Atendimento          | Nível 1         | —                           |
+| **3. Escalonamento técnico** | DITI/DSTI                        | Nível 2         | Sistemas / Fornecedores     |
+| **4. Diagnóstico avançado**  | Equipe técnica                   | Nível 3         | Consultoria / Fornecedores  |
+| **5. Resolução**             | Equipe técnica                   | Nível 2/3       | Sistemas / Fornecedores     |
+| **6. Validação**             | Usuário solicitante              | —               | Central de Atendimento       |
+| **7. Encerramento**          | Central de Atendimento           | Nível 1         | —                           |
+| **8. Registro da causa raiz** | Governança de TI / DPO          | —               | DITI/DSTI                   |
 
 
 
